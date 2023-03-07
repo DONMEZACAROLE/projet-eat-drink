@@ -1,0 +1,191 @@
+#container {
+    width: 90%;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    background-color: white;
+    justify-content: center;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.menu a {
+    display: block;
+    min-width: 96px;
+}
+
+.panier i:hover {
+    color: red;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn {
+    padding: 5px;
+    margin-top: 7px;
+}
+
+.form {
+    text-align: center;
+}
+
+.img1 {
+    background-image: url(images/img\ Mr\ Regis\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+}
+
+h1 {
+    color: white;
+    padding-left: 60px;
+    padding-top: 70px;
+}
+
+.forme {
+    display: flex;
+    justify-content: center;
+    background-color: lightpink;
+    padding: 30px;
+    margin: 100px;
+    padding-bottom: 20px;
+}
+
+.pass {
+    display: flex;
+    width: 120px;
+    padding-top: 5px;
+    background-color: lightpink;
+
+}
+
+.password {
+    width: 300px;
+    height: 40px;
+    background-color: lightpink;
+    border: 1px solid black;
+}
+
+#btn {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    margin-left: 100px;
+
+}
+
+#food {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.food1 {
+    border: 1px solid red;
+    width: 22%;
+    text-align: center;
+    margin: 3px 6px;
+}
+
+.food2 {
+    padding: 30px;
+
+}
+
+.food2 img:hover {
+    transform: scale(1.1);
+}
+
+.food3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+.food3 p {
+    color: red;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.btn:hover {
+    color: rgb(23, 23, 83);
+}
+
+h2 {
+    text-align: center;
+    margin-top: -90px;
+    padding-bottom: 30px;
+}
+
+
+.img h6 {
+    margin-top: -4px;
+}
+
+.img p {
+    margin-top: -5px;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer {
+    background-color: lightpink;
+    padding: 30px;
+}
+
+.reseau span {
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.reseau {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input {
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+h6 {
+    font-size: 100%;
+}

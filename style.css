@@ -1,0 +1,328 @@
+#container {
+    width: 90%;
+    margin: auto;
+}
+
+.menu {
+
+    display: flex;
+    padding: 0;
+    background-color: white;
+    justify-content: center;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.menu a {
+    display: block;
+    min-width: 96px;
+}
+
+.panier i:hover {
+    color: red;
+}
+
+.panier {
+    padding: 15px;
+}
+
+#cre {
+    font-size: 20px;
+}
+
+.quiz {
+    font-weight: bold;
+    color: red;
+}
+
+#btn {
+    background-color: red;
+    border-radius: 7px;
+    border: 1px solid red;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    height: 40px;
+    width: 50%;
+}
+
+#price {
+    display: flex;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: -5px;
+}
+
+.icon {
+    display: flex;
+}
+
+.true p {
+    margin-left: 30px;
+}
+
+.car i {
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.true i {
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img2 {
+    background-color: lightpink;
+    border-radius: 7px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    width: 50%;
+    padding-left: 20px;
+
+}
+
+.img2 p {
+    padding: 5px;
+    margin: 15px;
+    width: 60%;
+    height: auto;
+}
+
+#titre {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#text {
+    color: red;
+}
+
+.perez {
+    text-align: center;
+}
+
+.icone {
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn1 {
+    border-radius: 10px;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    width: 60px;
+    height: 40px;
+
+
+}
+
+#titre {
+    text-align: center;
+}
+
+.all {
+    display: flex;
+    background-color: red;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 2px;
+    height: 100%;
+    justify-content: center;
+}
+
+.img3 {
+    display: flex;
+    width: 150px;
+    padding: 2px;
+    margin: 5px;
+    max-width: 100px;
+}
+
+.all h3 {
+    color: white;
+}
+
+.img4 {
+    border: 1px solid darksalmon;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.reseau {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h6 {
+    font-size: 100%;
+}
+
+.contact br {
+    margin-bottom: 10px;
+}
+
+.photo p {
+    margin-top: -20px;
+}
+
+.date #date {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: lightpink;
+    padding: 30px;
+}
+
+.reseau span {
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+#food {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+}
+
+.food1 {
+    border: 1px solid red;
+    width: 32%;
+    text-align: center;
+    margin: 3px 6px;
+}
+
+.food2 {
+    padding: 30px;
+
+}
+
+.food2 img:hover {
+    transform: scale(1.1);
+}
+
+.food3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+.food3 p {
+    color: red;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.btn:hover {
+    color: rgb(23, 23, 83);
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .sous_container {
+        flex-wrap: wrap;
+
+    }
+
+    .icone {
+        flex-wrap: wrap;
+    }
+
+    .photo {
+        flex-wrap: wrap;
+    }
+
+    #food {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .box {
+        flex-wrap: wrap;
+    }
+
+    .text {
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        width: 70px;
+    }
+
+    .food1 {
+        width: 45%;
+    }
+}
